@@ -26,6 +26,23 @@ substitutions:
   wifi_reboot_timeout: 0s
   #电量统计的数据刷新时间（内部刷新时间，非上报周期），秒s/分钟min/小时h
   cse7766_update_interval: 1s
+  
+  #WiFi_SSID名称
+  wifi_ssid: '30444'
+  #WiFi密码
+  wifi_password: '19283746xx'
+  #OTA密码
+  ota_password: '123456'
+
+  #MQTT代理服务器IP地址
+  mqtt_broker: '120.27.242.84'
+  #mqtt_broker: 'device.jianghijiuji.wang'
+  #MQTT代理服务器端口
+  mqtt_port: '1883'
+  #MQTT代理服务器用户名
+  mqtt_username: 'dc1'
+  #MQTT代理服务器密码
+  mqtt_password: 'wang2020'
 
   #与MQTT服务端失去连接多久后重启设备，秒s/分钟min/小时h，不需要此功能设置为0s，建议设置0s，防止异常重启，或者设置的大一些
   mqtt_reboot_timeout: 0s
