@@ -112,7 +112,7 @@ captive_portal:
 
 #------- MQTT配置，注意此配置与API配置互斥，只能选择1个 -------
 mqtt:
-  id: $mqtt_client
+  id: mqtt_client
   broker: $mqtt_broker
   port: $mqtt_port
   username: $mqtt_username
